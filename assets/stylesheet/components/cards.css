@@ -65,3 +65,12 @@
   font-size: 60px;
   text-shadow: 2px 2px 4px #003874a4;
 }
+@media (max-width: 768px) {
+  .card-introduction-row {
+    flex-direction: column !important;
+    margin: 0;
+  }
+  .icon-introduction {
+    right: -30px;
+  }
+}
