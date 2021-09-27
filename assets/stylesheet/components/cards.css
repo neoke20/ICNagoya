@@ -1,0 +1,50 @@
+.card-course {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-course > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-course h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-course p {
+  font-size: 12px;
+  font-weight: 400;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-course .card-course-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-course-infos .card-course-button {
+  position: absolute;
+  right: 10px;
+  top: -20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 4px 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.card-course-infos .card-course-button:hover {
+  color: white;
+  background-color: black;
+  transition: all 0.3s;
+}
