@@ -1,3 +1,4 @@
+/* Course Cards */
 .card-course {
   overflow: hidden;
   background: white;
@@ -22,8 +23,6 @@
   opacity: .7;
   margin: 0;
 }
-
-
 .card-course .card-course-infos {
   padding: 16px;
   display: flex;
@@ -47,4 +46,31 @@
   color: white;
   background-color: black;
   transition: all 0.3s;
+}
+/* End of Course Cards */
+
+/* Introduction Cards */
+.card-introduction {
+  width: 400px;
+  margin: 25px 12px;
+  background-color: rgba(240, 240, 240, 0.7);
+  box-shadow: 2px 2px 8px rgba(180, 180, 180, 0.7);
+  position: relative;
+}
+.icon-introduction {
+  position: absolute;
+  color: #004FA6;
+  top: -30px;
+  right: 10px;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px #003874a4;
+}
+@media (max-width: 768px) {
+  .card-introduction-row {
+    flex-direction: column !important;
+    margin: 0;
+  }
+  .icon-introduction {
+    right: -30px;
+  }
 }
