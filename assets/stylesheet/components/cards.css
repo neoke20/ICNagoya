@@ -113,8 +113,8 @@
 .main-container {
   display: flex;
   justify-content: space-between;
+  margin: 3em;
 }
-
 div.sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -143,4 +143,16 @@ div.sticky {
 }
 .price p {
   padding-top: 12px;
+}
+@media (max-width: 980px) {
+  .main-container {
+    flex-direction: column;
+  }
+  #course-details {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-container {
+    margin: 1em;
+  }
 }
