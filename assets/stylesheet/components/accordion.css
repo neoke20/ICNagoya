@@ -5,3 +5,12 @@
 .accordion-button:not(.collapsed) {
   color: #004FA6 !important;
 }
+@media (max-width: 768px) {
+  .accordion-body {
+    flex-direction: column;
+  }
+  .accordion-body img {
+    margin: auto;
+    width: 100%;
+  }
+}
