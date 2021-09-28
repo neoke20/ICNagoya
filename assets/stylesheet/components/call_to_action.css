@@ -16,3 +16,10 @@
   font-size: 20px;
   font-weight: 300;
 }
+.ic-btn {
+  background-color: #004FA6 !important;
+  color: white !important;
+}
+.ic-btn:hover {
+  background-color: #026ada !important;
+}
