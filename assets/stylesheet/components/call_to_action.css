@@ -1,0 +1,36 @@
+.cta {
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0;
+}
+.cta h2 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: 500;
+}
+.cta p {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 20px;
+  font-weight: 300;
+}
+.ic-btn {
+  background-color: #004FA6 !important;
+  color: white !important;
+}
+.ic-btn:hover {
+  background-color: #026ada !important;
+}
+@media (max-width: 768px) {
+  .cta .container {
+    flex-direction: column;
+  }
+  .ic-btn {
+    width: 100%;
+  }
+  .cta h2, p {
+    text-align: center;
+  }
+}
