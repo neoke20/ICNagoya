@@ -1,0 +1,7 @@
+.accordion-body img {
+  width: 50%;
+  height: 100%;
+}
+.accordion-button:not(.collapsed) {
+  color: #004FA6 !important;
+}
