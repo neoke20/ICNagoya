@@ -47,7 +47,6 @@
   background-color: black;
   transition: all 0.3s;
 }
-/* End of Course Cards */
 
 /* Introduction Cards */
 .card-introduction {
@@ -75,6 +74,7 @@
   }
 }
 /* Accommodation card */
+
 .card-accommodation {
   position: relative;
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(../../img/cards/dormitory.jpg);
@@ -107,4 +107,40 @@
   top: 0;
   bottom: 0;
   width: 100%;
+}
+
+/* Course details */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 110px;
+  align-self: flex-start;
+  margin: 25px 10px;
+  padding: 8px;
+  width: 350px;
+  border-radius: 4px;
+}
+.sticky-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  border-bottom: 1px dotted black;
+}
+.sticky h3 {
+  padding: 16px 0;
+  border-bottom: 1px solid black;
+  font-size: 24px;
+}
+.price {
+  background-color: #004FA6;
+  color: white;
+  padding: 8px 56px;
+}
+.price p {
+  padding-top: 12px;
 }
