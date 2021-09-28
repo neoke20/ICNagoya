@@ -23,3 +23,14 @@
 .ic-btn:hover {
   background-color: #026ada !important;
 }
+@media (max-width: 768px) {
+  .cta .container {
+    flex-direction: column;
+  }
+  .ic-btn {
+    width: 100%;
+  }
+  .cta h2, p {
+    text-align: center;
+  }
+}
