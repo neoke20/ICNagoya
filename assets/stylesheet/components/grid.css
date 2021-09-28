@@ -1,3 +1,16 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 110px;
+  background-color: #666;
+  align-self: flex-start;
+}
+
 .ic-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
