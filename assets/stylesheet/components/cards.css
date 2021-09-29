@@ -153,12 +153,27 @@ div.sticky {
 @media (max-width: 980px) {
   .main-container {
     flex-direction: column;
+    margin: 1em;
+    position: relative;
   }
   #course-details {
     margin-left: auto;
     margin-right: auto;
   }
-  .main-container {
-    margin: 1em;
+  .mobile-apply {
+    position: fixed;
+    bottom: 4px;
+    left: 4px;
+    z-index: 2;
+    background-color: #bb2d3981 !important;
+    color: white !important;
+  }
+  .mobile-apply:hover {
+    position: fixed;
+    bottom: 4px;
+    left: 4px;
+    z-index: 2;
+    background-color: #BB2D3A !important;
+    color: white !important;
   }
 }
