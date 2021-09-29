@@ -3,6 +3,18 @@
 .ic-pt-40 {
   padding-top: 40px;
 }
+.ic-pb-40 {
+  padding-bottom: 40px;
+}
+.ic-pr-40 {
+  padding-right: 40px;
+}
+.ic-pl-40 {
+  padding-left: 40px;
+}
+.ic-p-40 {
+  padding: 40px;
+}
 h1, h2 {
   text-transform: uppercase;
 }
