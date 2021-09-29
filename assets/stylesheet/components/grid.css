@@ -54,3 +54,18 @@
     display: none;
   }
 }
+@media (min-width: 1301px) {
+  .md-process {
+    display: none;
+  }
+}
+@media (max-width: 530px) {
+  .md-process {
+    display: none;
+  }
+}
+@media (min-width: 531px) {
+  .s-process {
+    display: none;
+  }
+}

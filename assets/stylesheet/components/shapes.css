@@ -24,3 +24,22 @@
   margin-left: auto;
   margin-right: auto;
 }
+.square-info-s {
+  background-color: teal;
+  padding: 60px 80px;
+  height: 150px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+.triangle-bottom {
+  border-left: 110px solid transparent;
+  border-right: 110px solid transparent;
+  border-top: 20px solid teal;
+}
+.triangle-top {
+  border-left: 110px solid teal;
+  border-right: 110px solid teal;
+  border-top: 20px solid transparent;
+}
