@@ -9,6 +9,6 @@ h1, h2 {
 h2 {
   color: rgba(45, 45, 45, 0.8);
 }
-ol {
+ol, ul {
   list-style: none;
 }
