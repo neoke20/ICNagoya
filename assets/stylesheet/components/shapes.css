@@ -1,0 +1,13 @@
+.square-info {
+  background-color: teal;
+  padding: 40px 8px;
+  height: 150px;
+  width: 180px;
+  color: white;
+  text-align: center;
+}
+.triangle-right {
+      border-top: 75px solid transparent;
+      border-left: 20px solid teal;
+      border-bottom: 75px solid transparent;
+    }
