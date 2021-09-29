@@ -38,3 +38,19 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+/* Display of visa process */
+@media (max-width: 1500px) {
+  .xl-process {
+    display: none;
+  }
+}
+@media (min-width: 1501px) {
+  .lg-process {
+    display: none;
+  }
+}
+@media (max-width: 1300px) {
+  .lg-process {
+    display: none;
+  }
+}

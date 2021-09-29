@@ -7,7 +7,20 @@
   text-align: center;
 }
 .triangle-right {
-      border-top: 75px solid transparent;
-      border-left: 20px solid teal;
-      border-bottom: 75px solid transparent;
-    }
+  border-top: 75px solid transparent;
+  border-left: 20px solid teal;
+  border-bottom: 75px solid transparent;
+}
+.triangle-left {
+  border-top: 75px solid teal;
+  border-left: 20px solid transparent;
+  border-bottom: 75px solid teal;
+}
+.lg-process .info-5 {
+  width: 400px;
+}
+.display-table {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
