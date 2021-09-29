@@ -133,7 +133,7 @@ div.sticky {
 }
 .sticky h3 {
   padding: 16px 0;
-  border-bottom: 1px solid black;
+  border-bottom: 8px ridge #0050a6b7;
   font-size: 24px;
 }
 .price {
@@ -143,6 +143,12 @@ div.sticky {
 }
 .price p {
   padding-top: 12px;
+}
+.course-details li {
+  padding-right: 16px;
+}
+.course-details i {
+  color: #0050a6dc;
 }
 @media (max-width: 980px) {
   .main-container {
