@@ -74,7 +74,6 @@
   }
 }
 /* Accommodation card */
-
 .card-accommodation {
   position: relative;
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(../../img/cards/dormitory.jpg);
@@ -138,6 +137,22 @@
 .card-product .card-product-infos {
   padding: 16px;
 }
+.card-blur {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 50%;
+  height: 400px;
+}
+
 /* Course details */
 .main-container {
   display: flex;
