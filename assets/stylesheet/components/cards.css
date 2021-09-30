@@ -177,3 +177,10 @@ div.sticky {
     color: white !important;
   }
 }
+/* Benefit cards */
+.card-benefit {
+  background-color: blue;
+  padding: 100px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(45, 45, 45, 0.6);
+}
