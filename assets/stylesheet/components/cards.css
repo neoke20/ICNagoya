@@ -116,9 +116,10 @@
   display: flex;
   align-items: center;
 }
-.card-product i {
-  padding: 16px;
-  font-size: 50px;
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
 }
 .card-product h2 {
   font-size: 16px;
@@ -135,12 +136,7 @@
 }
 
 .card-product .card-product-infos {
-  padding-right: 16px;
-}
-@media (max-width: 1000px) {
-  .dorm-benefits {
-    flex-direction: column !important;
-  }
+  padding: 16px;
 }
 /* Course details */
 .main-container {
