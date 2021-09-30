@@ -181,6 +181,7 @@
 }
 .rooms-section-sm .card h6 {
   position: absolute;
+  width: 100%;
   top: 29%;
   left: 29%;
   color: white;
