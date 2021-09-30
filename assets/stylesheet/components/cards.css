@@ -171,12 +171,18 @@
 .card-blur-content h5 {
   font-size: 3em;
 }
+.rooms-section-sm .card {
+  margin-left: auto;
+  margin-right: auto;
+}
 @media (max-width: 900px) {
-  .rooms-section {
-    flex-direction: column;
+  #rooms-lg {
+    display: none;
   }
-  .room-card {
-    width: 100%;
+}
+@media (min-width: 901px) {
+  #rooms-sm {
+    display: none;
   }
 }
 /* Course details */
