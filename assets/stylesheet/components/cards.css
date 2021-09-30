@@ -168,6 +168,9 @@
   color: white;
   text-shadow: 1px 1px 2px rgba(45, 45, 45, 0.6);
 }
+.card-blur-content h5 {
+  font-size: 3em;
+}
 @media (max-width: 900px) {
   .rooms-section {
     flex-direction: column;
