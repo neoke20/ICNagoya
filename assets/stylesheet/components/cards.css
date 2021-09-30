@@ -108,7 +108,40 @@
   bottom: 0;
   width: 100%;
 }
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+}
+.card-product i {
+  padding: 16px;
+  font-size: 50px;
+}
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
 
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding-right: 16px;
+}
+@media (max-width: 1000px) {
+  .dorm-benefits {
+    flex-direction: column !important;
+  }
+}
 /* Course details */
 .main-container {
   display: flex;
