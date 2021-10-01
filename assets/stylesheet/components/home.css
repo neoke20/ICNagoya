@@ -1,3 +1,4 @@
+/* For the introduction block */
 #introduction {
   background-size: cover;
   background-position: center;
@@ -22,4 +23,12 @@
   background-size: 20px 20px;
   background-image:
     radial-gradient(circle at 10px -5px, transparent 12px, #004fa6 13px);
+}
+/* For the courses block */
+#courses {
+  background-color: #002752;
+}
+#courses h2 {
+  text-shadow: 1px 1px 4px black;
+  font-weight: bold;
 }
