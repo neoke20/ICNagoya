@@ -75,3 +75,7 @@ div.sticky {
     color: white !important;
   }
 }
+/* Changes the border radius of bootstrap button */
+#apply-button {
+  border-radius: 0 0 4px 4px;
+}
