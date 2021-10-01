@@ -58,11 +58,9 @@
 }
 .icon-introduction {
   position: absolute;
-  color: #004FA6;
-  top: -30px;
-  right: 10px;
-  font-size: 60px;
-  text-shadow: 2px 2px 4px #003874a4;
+  top: -25px;
+  right: -20px;
+  width: 60px;
 }
 @media (max-width: 768px) {
   .card-introduction-row {
