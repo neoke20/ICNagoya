@@ -35,3 +35,8 @@
 .accordion {
   margin: 20px 60px;
 }
+.accordion-button:not(.collapsed) {
+  color: white !important;
+  font-weight: bold;
+  background-color: #004fa6 !important;
+}
