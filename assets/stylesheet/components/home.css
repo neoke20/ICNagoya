@@ -28,10 +28,14 @@
 #courses {
   background-color: #002752;
 }
+/* For the accommodation block*/
+#accommodation {
+  background-color: #002752;
+}
 #courses h2 {
-  /* text-shadow: 1px 1px 4px black; */
   font-weight: bold;
 }
+/* For the accordion */
 .accordion {
   margin: 20px 60px;
 }
