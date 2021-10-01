@@ -1,8 +1,25 @@
 #introduction {
   background-size: cover;
   background-position: center;
+  border-top: 3mm ridge #004fa6;
+  border-bottom: 3mm ridge #004fa6;
 }
 #introduction h2 {
   text-shadow: 1px 1px 4px black;
   font-weight: bold;
+}
+.wave{
+  position: relative;
+}
+.wave::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 10px;
+  background-size: 20px 20px;
+  background-image:
+    radial-gradient(circle at 10px -5px, transparent 12px, #004fa6 13px);
 }
