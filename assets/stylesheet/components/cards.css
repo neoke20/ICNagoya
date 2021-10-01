@@ -70,6 +70,9 @@
   .icon-introduction {
     right: -30px;
   }
+  .card-introduction {
+    width: 90%;
+  }
 }
 /* Accommodation card */
 .card-accommodation {
