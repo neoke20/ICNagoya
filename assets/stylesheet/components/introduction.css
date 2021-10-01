@@ -1,0 +1,8 @@
+#introduction {
+  background-size: cover;
+  background-position: center;
+}
+#introduction h2 {
+  text-shadow: 1px 1px 4px black;
+  font-weight: bold;
+}
