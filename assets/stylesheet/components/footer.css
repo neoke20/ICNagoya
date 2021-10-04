@@ -1,9 +1,16 @@
 .footer {
   display: flex;
-  background-color: #002752;
+  background-color: #001e3f;
   justify-content: center;
   align-items: center;
   padding: 16px 8px;
+}
+.footer div {
+  padding: 0 20px;
+}
+.freepik, .freepik a, .freepik a:hover {
+  background-color: #001e3f;
+  color: rgba(220, 220, 220, 0.1);
 }
 .footer img {
   height: 80px;
@@ -18,9 +25,10 @@
 }
 @media (max-width: 670px) {
   .footer {
-    flex-direction: column;
-  }
-  .footer p {
+    flex-direction: column-reverse;
     text-align: center;
+  }
+  .footer img {
+    margin-bottom: 16px;
   }
 }
