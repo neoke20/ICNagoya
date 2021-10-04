@@ -1,8 +1,11 @@
 .footer {
   display: flex;
   background-color: #002752;
-  height: 150px;
+  line-height: 4px;
 }
 .footer img {
   height: 120px;
+}
+.footer-address {
+  align-self: center;
 }
