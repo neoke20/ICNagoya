@@ -111,8 +111,8 @@
 .card-product {
   overflow: hidden;
   height: 120px;
+  width: 50%;
   background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
 }
@@ -137,6 +137,18 @@
 
 .card-product .card-product-infos {
   padding: 16px;
+}
+@media (max-width: 990px) {
+  .product-card-container {
+    flex-direction: column;
+  }
+  .card-product {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+  .card-product p {
+    text-align: left;
+  }
 }
 .room-card {
   position: relative;
