@@ -221,3 +221,35 @@
     margin-bottom: 16px;
   }
 }
+/* Room card */
+.card-room {
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+.room-table {
+  width: 50%;
+  background-color: #212528;
+}
+.room-table tr:last-child {
+  border-bottom: 1px solid #212528 !important;
+}
+@media (max-width: 720px) {
+  .room-section {
+    flex-direction: column;
+  }
+  .card-room {
+    width: 100%;
+    height: 180px;
+  }
+  .room-table {
+    width: 100%;
+  }
+}
