@@ -23,9 +23,6 @@
 .ic-btn:hover {
   background-color: #026ada !important;
 }
-.cta-dorm {
-  margin-top: -155px;
-}
 @media (max-width: 900px) {
   .cta-dorm {
     margin-top: 0;
