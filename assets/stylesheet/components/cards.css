@@ -138,6 +138,18 @@
 .card-product .card-product-infos {
   padding: 16px;
 }
+@media (max-width: 990px) {
+  .product-card-container {
+    flex-direction: column;
+  }
+  .card-product {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+  .card-product p {
+    text-align: left;
+  }
+}
 .room-card {
   position: relative;
   width: 50%;
