@@ -2,5 +2,10 @@
   background-size: cover;
   background-position: center;
   padding: 40px 0;
-  background-image: linear-gradient(rgba(245, 245, 245, 0.2),rgba(220, 220, 220, 0.2)), url(../../../assets/img/background/design.jpg);
+  background-image: linear-gradient(rgba(245, 245, 245, 0.2),rgba(220, 220, 220, 0.2)), url(../../../assets/img/background/design.webp);
+}
+@media (max-width: 600px) {
+  #art-course {
+    background-image: linear-gradient(rgba(245, 245, 245, 0.2),rgba(220, 220, 220, 0.2)), url(../../../assets/img/background/designmobile.webp);;
+  }
 }
