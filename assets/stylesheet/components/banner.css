@@ -28,3 +28,12 @@
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/bannermobile.webp);;
   }
 }
+/* One Year Banner */
+.oneyear-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/1yearbanner.webp);
+}
+@media (max-width: 600px) {
+  .oneyear-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/1yearbannermobile.webp);
+}
+}
