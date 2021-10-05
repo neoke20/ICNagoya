@@ -23,37 +23,17 @@
 .home-banner {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/banner.webp);
 }
-@media (max-width: 600px) {
-  .home-banner {
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/bannermobile.webp);;
-  }
-}
 /* One Year Banner */
 .oneyear-banner {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/1yearbanner.webp);
-}
-@media (max-width: 600px) {
-  .oneyear-banner {
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/1yearbannermobile.webp);
-  }
 }
 /* Art banner */
 .art-banner {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/artsbanner.webp);
 }
-@media (max-width: 600px) {
-  .art-banner {
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/artsbannermobile.webp);
-  }
-}
 /* Apply banner */
 .apply-banner {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/apply.webp);
-}
-@media (max-width: 600px) {
-  .apply-banner {
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/applymobile.webp);
-  }
 }
 /* Dormitory banner */
 .dorm-banner {
@@ -62,5 +42,17 @@
 @media (max-width: 600px) {
   .dorm-banner {
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/cards/dormitorymobile.webp);
+  }
+  .apply-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/applymobile.webp);
+  }
+  .art-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/artsbannermobile.webp);
+  }
+  .oneyear-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/1yearbannermobile.webp);
+  }
+  .home-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/bannermobile.webp);;
   }
 }
