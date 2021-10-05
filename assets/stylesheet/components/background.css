@@ -1,0 +1,8 @@
+#introduction {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/background/ninja.webp);
+}
+@media (max-width: 600px) {
+  #introduction {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/background/ninjamobile.webp);
+  }
+}
