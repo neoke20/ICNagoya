@@ -1,9 +1,3 @@
-#one-year {
-  background-size: cover;
-  background-position: center;
-  padding: 40px 0;
-  background-image: linear-gradient(rgba(245, 245, 245, 0.7),rgba(220, 220, 220, 0.7)), url(../../../assets/img/background/sakura.jpg);
-}
 /* Course details */
 .main-container {
   display: flex;

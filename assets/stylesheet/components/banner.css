@@ -19,3 +19,40 @@
   opacity: .7;
   text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
+/* Home banner */
+.home-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/banner.webp);
+}
+/* One Year Banner */
+.oneyear-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/1yearbanner.webp);
+}
+/* Art banner */
+.art-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/artsbanner.webp);
+}
+/* Apply banner */
+.apply-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/apply.webp);
+}
+/* Dormitory banner */
+.dorm-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/cards/dormitory.webp);
+}
+@media (max-width: 600px) {
+  .dorm-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/cards/dormitorymobile.webp);
+  }
+  .apply-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/applymobile.webp);
+  }
+  .art-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/artsbannermobile.webp);
+  }
+  .oneyear-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/1yearbannermobile.webp);
+  }
+  .home-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/bannermobile.webp);;
+  }
+}

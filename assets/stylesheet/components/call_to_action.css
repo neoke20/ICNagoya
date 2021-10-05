@@ -2,6 +2,12 @@
   background-size: cover;
   background-position: center;
   padding: 60px 0;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/banner.webp);
+}
+@media (max-width: 600px) {
+  .cta {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/bannermobile.webp);
+  }
 }
 .cta h3 {
   margin: 0;
@@ -22,11 +28,6 @@
 }
 .ic-btn:hover {
   background-color: #026ada !important;
-}
-@media (max-width: 900px) {
-  .cta-dorm {
-    margin-top: 0;
-  }
 }
 @media (max-width: 768px) {
   .cta .container {

@@ -13,7 +13,8 @@
   color: rgba(220, 220, 220, 0.1);
 }
 .footer img {
-  height: 80px;
+  width: 200px;
+  height: 100%;
 }
 .footer p {
   font-size: 12px;

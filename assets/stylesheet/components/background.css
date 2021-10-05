@@ -1,0 +1,33 @@
+/* Introudction background */
+#introduction {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/background/ninja.webp);
+}
+@media (max-width: 600px) {
+  #introduction {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/background/ninjamobile.webp);
+  }
+}
+/* One Year Background */
+#one-year {
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+  background-image: linear-gradient(rgba(245, 245, 245, 0.7),rgba(220, 220, 220, 0.7)), url(../../../assets/img/background/sakura.webp);
+}
+@media (max-width: 600px) {
+  #one-year {
+    background-image: linear-gradient(rgba(245, 245, 245, 0.7),rgba(220, 220, 220, 0.7)), url(../../../assets/img/background/sakuramobile.webp);
+  }
+}
+/* Art Course Background */
+#art-course {
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+  background-image: linear-gradient(rgba(245, 245, 245, 0.2),rgba(220, 220, 220, 0.2)), url(../../../assets/img/background/design.webp);
+}
+@media (max-width: 600px) {
+  #art-course {
+    background-image: linear-gradient(rgba(245, 245, 245, 0.2),rgba(220, 220, 220, 0.2)), url(../../../assets/img/background/designmobile.webp);;
+  }
+}
