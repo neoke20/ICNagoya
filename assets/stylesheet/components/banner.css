@@ -34,6 +34,15 @@
 }
 @media (max-width: 600px) {
   .oneyear-banner {
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/1yearbannermobile.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/1yearbannermobile.webp);
+  }
 }
+/* Art banner */
+.art-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/artsbanner.webp);
+}
+@media (max-width: 600px) {
+  .art-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/artsbannermobile.webp);
+  }
 }
