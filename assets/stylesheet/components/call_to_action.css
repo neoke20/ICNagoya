@@ -29,11 +29,6 @@
 .ic-btn:hover {
   background-color: #026ada !important;
 }
-@media (max-width: 900px) {
-  .cta-dorm {
-    margin-top: 0;
-  }
-}
 @media (max-width: 768px) {
   .cta .container {
     flex-direction: column;
