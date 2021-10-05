@@ -46,3 +46,12 @@
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/artsbannermobile.webp);
   }
 }
+/* Apply banner */
+.apply-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/apply.webp);
+}
+@media (max-width: 600px) {
+  .apply-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/applymobile.webp);
+  }
+}
