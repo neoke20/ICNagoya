@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Allow: /english/
+
+Sitemap: https://icn.gr.jp/sitemap.xml
