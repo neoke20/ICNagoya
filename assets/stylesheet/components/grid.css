@@ -3,10 +3,16 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
 }
-
+.benefits-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 /* Smallest device */
 @media (min-width: 100px) and (max-width: 575px) {
   .ic-grid {
+    grid-template-columns: 1fr;
+  }
+  .benefits-grid {
     grid-template-columns: 1fr;
   }
 }
