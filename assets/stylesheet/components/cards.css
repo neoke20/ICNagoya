@@ -279,3 +279,12 @@
     width: 100%;
   }
 }
+/* Benefit cards */
+.benefit-card {
+  height: 250px;
+  box-shadow: 0px 30px 40px -20px black;
+  margin: 1rem 1rem;
+  border-radius: .5rem;
+  border-top: 3px solid red;
+  padding: 8px;
+}
