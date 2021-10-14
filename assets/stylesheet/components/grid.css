@@ -3,10 +3,16 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
 }
-
+.benefits-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 /* Smallest device */
 @media (min-width: 100px) and (max-width: 575px) {
   .ic-grid {
+    grid-template-columns: 1fr;
+  }
+  .benefits-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -16,6 +22,9 @@
   .ic-grid {
     grid-template-columns: 1fr;
   }
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -23,12 +32,18 @@
   .ic-grid {
     grid-template-columns: 1fr;
   }
+  .benefits-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .ic-grid {
     grid-template-columns: 1fr 1fr;
+  }
+  .benefits-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
