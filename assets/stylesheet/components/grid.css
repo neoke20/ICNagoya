@@ -22,6 +22,9 @@
   .ic-grid {
     grid-template-columns: 1fr;
   }
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -29,12 +32,18 @@
   .ic-grid {
     grid-template-columns: 1fr;
   }
+  .benefits-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .ic-grid {
     grid-template-columns: 1fr 1fr;
+  }
+  .benefits-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
