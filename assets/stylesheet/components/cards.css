@@ -285,7 +285,7 @@
 }
 .benefit-card {
   height: 100%;
-  box-shadow: 0px 30px 40px -20px black;
+  box-shadow: 0px 15px 40px -20px rgba(40, 40, 40, .7);
   margin: 1rem 1rem;
   border-radius: .5rem;
   border-top: 3px solid red;
@@ -293,6 +293,9 @@
 }
 .benefit-card p {
   color: rgba(50, 50, 50, .6);
+}
+.benefit-card h3 {
+  color: rgba(40, 40, 40, .8);
 }
 .benefit-card img {
   align-self: flex-end;
