@@ -223,7 +223,16 @@
   padding: 50px 25px;
   border-radius: 5px;
   box-shadow: 2px 2px 8px rgba(45, 45, 45, 0.6);
-  border: 2px solid rgb(0,79,166);
+  background-size: cover;
+}
+#benefit1 {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../img/cards/benefit1.webp);
+}
+#benefit2 {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../img/cards/benefit2.webp);
+}
+#benefit3 {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../img/cards/benefit3.webp);
 }
 @media (max-width: 1180px) {
   .benefits {
