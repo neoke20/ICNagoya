@@ -224,15 +224,16 @@
   border-radius: 5px;
   box-shadow: 2px 2px 8px rgba(45, 45, 45, 0.6);
   background-size: cover;
+  background-position: center;
 }
 #benefit1 {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../img/cards/benefit1.webp);
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../../img/cards/benefit1.webp);
 }
 #benefit2 {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../img/cards/benefit2.webp);
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../../img/cards/benefit2.webp);
 }
 #benefit3 {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../img/cards/benefit3.webp);
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../../img/cards/benefit3.webp);
 }
 @media (max-width: 1180px) {
   .benefits {
