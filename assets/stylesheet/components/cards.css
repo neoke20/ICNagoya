@@ -257,14 +257,14 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 .single-room {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../../assets/img/cards/dormitory.webp);
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../../assets/img/cards/singleroom.webp);
 }
 .double-room {
   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../../assets/img/cards/doubleroom.webp);
 }
 @media (max-width: 600px) {
   .single-room {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../../assets/img/cards/dormitorymobile.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../../assets/img/cards/singleroommobile.webp);
   }
   .double-room {
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../../assets/img/cards/doubleroommobile.webp);
