@@ -333,7 +333,7 @@
           <h4 class="text-center mt-4">After graduating statistics</h4>
           <div class="chart-container d-flex justify-content-center">
             <div>
-              <canvas id="myChart" class="mb-4"></canvas>
+              <canvas id="graduationChart" class="mb-4"></canvas>
             </div>
           </div>
         </div>
@@ -464,49 +464,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
     crossorigin="anonymous"></script>
-    <!-- Chart.js -->
-    <script>
-      const data = {
-        labels: [
-          'Vocational school',
-          'University',
-          'Employment',
-          'Graduate School',
-          'Others'
-        ],
-        datasets: [{
-          data: [34, 24, 4, 4, 15],
-          backgroundColor: [
-            'rgb(0, 30, 63)',
-            'rgb(54, 162, 235)',
-            'rgb(255, 205, 86)',
-            'rgb(230, 150, 86)',
-            'rgb(230, 80, 86)'
-          ],
-          hoverOffset: 4
-        }]
-      };
-
-      const config = {
-        type: 'pie',
-        data: data,
-        options: {
-          plugins: {
-            legend: {
-              position: 'bottom',
-              labels: {
-                color: '#004FA6'
-              }
-            }
-          }
-        }
-      };
-
-      var myChart = new Chart(
-        document.getElementById('myChart'),
-        config
-      );
-    </script>
 </body>
 
 </html>
