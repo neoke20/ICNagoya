@@ -21,7 +21,7 @@ const graduationData = {
 
 const graduationConfig = {
   type: 'pie',
-  data: graduationChart,
+  data: graduationData,
   options: {
     plugins: {
       legend: {
