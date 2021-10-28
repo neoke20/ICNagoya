@@ -28,6 +28,6 @@
 }
 @media (max-width: 600px) {
   #art-course {
-    background-image: linear-gradient(rgba(245, 245, 245, 0.2),rgba(220, 220, 220, 0.2)), url(../../../assets/img/background/designmobile.webp);;
+    background-image: linear-gradient(rgba(245, 245, 245, 0.2),rgba(220, 220, 220, 0.2)), url(../../../assets/img/background/wavebackgroundmobile.webp);;
   }
 }
