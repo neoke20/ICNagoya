@@ -1,0 +1,10 @@
+.photo-gallery {
+  padding: 6px 6px;
+}
+.photo-item img {
+  width: 100%;
+  height: auto;
+}
+.photo-item {
+  margin: 0 4px;
+}
