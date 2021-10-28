@@ -18,15 +18,9 @@
     padding: 0;
   }
   .photo-item {
-    margin: 4px 0;
+    margin: 4px 4px;
   }
   .photo-item img {
-    padding: 4px;
-  }
-  .photo-gallery :first-child {
-    margin: 0 0 4px 0;
-  }
-  .photo-gallery :last-child {
-    margin: 4px 0 0 0;
+    padding: 8px;
   }
 }
