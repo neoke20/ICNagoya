@@ -8,6 +8,9 @@
   border-radius: 4px;
   box-shadow: 2px 2px 4px rgba(45, 45, 45, 0.6);
 }
+.photo-item img:hover {
+  box-shadow: 4px 4px 4px rgba(45, 45, 45, 0.6);
+}
 .photo-item {
   margin: 0 4px;
 }
