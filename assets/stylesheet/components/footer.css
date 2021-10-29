@@ -1,9 +1,9 @@
 .footer {
   display: flex;
   background-color: #001e3f;
-  justify-content: center;
-  align-items: center;
-  padding: 16px 8px;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 16px 0;
 }
 .footer div {
   padding: 0 20px;
@@ -31,9 +31,10 @@
 .footer a:hover {
   color: rgba(230, 230, 230, 0.7)
 }
-@media (max-width: 670px) {
+@media (max-width: 880px) {
   .footer {
     flex-direction: column-reverse;
+    align-items: center;
     text-align: center;
   }
   .footer img {
