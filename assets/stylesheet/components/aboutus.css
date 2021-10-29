@@ -1,0 +1,13 @@
+#access {
+  background-color: #F0F0F0;
+}
+#access-info {
+  width: 700px;
+  margin: 20px 8px;
+}
+#contact-info {
+  background-color: white;
+  width: 380px;
+  padding: 20px;
+  border-radius: 4px;
+}
