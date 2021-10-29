@@ -5,6 +5,16 @@
 .accordion-button:not(.collapsed) {
   color: #004FA6 !important;
 }
+.accordion-body hr {
+  border-top: 4px solid #004FA6;
+  border-radius: 4px;
+}
+.accordion-body h5 {
+  color: rgba(80, 80, 80, 0.8);
+}
+.accordion {
+  padding: 0 150px;
+}
 @media (max-width: 768px) {
   .accordion-body {
     flex-direction: column;
@@ -13,11 +23,7 @@
     margin: auto;
     width: 100%;
   }
-}
-.accordion-body hr {
-  border-top: 4px solid #004FA6;
-  border-radius: 4px;
-}
-.accordion-body h5 {
-  color: rgba(80, 80, 80, 0.8);
+  .accordion {
+    padding: 0;
+  }
 }
