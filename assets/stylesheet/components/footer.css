@@ -24,6 +24,13 @@
   font-weight: 300;
   text-shadow: 2px 2px 4px rgba(10, 10, 10, 0.6);
 }
+.footer a {
+  color: white;
+  text-decoration: underline !important;
+}
+.footer a:hover {
+  color: rgba(230, 230, 230, 0.7)
+}
 @media (max-width: 670px) {
   .footer {
     flex-direction: column-reverse;
