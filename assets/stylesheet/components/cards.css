@@ -322,7 +322,6 @@
 .key-feature-card img {
   position: absolute;
   align-self: center;
-  box-shadow: 0px 15px 40px -20px rgba(40, 40, 40, .7);
   bottom: -32px;
 }
 /* Testimonials */
