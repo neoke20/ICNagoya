@@ -17,7 +17,15 @@
   font-weight: 200;
   color: white;
   opacity: .7;
-  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.tagline {
+  padding: 70px 0;
+  background-color:#212121;
+  color: white;
+}
+.tagline h3 {
+  font-size: 2rem;
 }
 /* Home banner */
 .home-banner {
@@ -39,6 +47,10 @@
 .dorm-banner {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/cards/dormitory.webp);
 }
+/* About us banner */
+.aboutus-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/nagoyacastle.webp);
+}
 @media (max-width: 600px) {
   .dorm-banner {
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/cards/dormitorymobile.webp);
@@ -55,4 +67,6 @@
   .home-banner {
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/bannermobile.webp);;
   }
+  .aboutus-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/nagoyacastlemobile.webp);
 }

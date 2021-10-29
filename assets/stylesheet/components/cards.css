@@ -293,14 +293,22 @@
 .benefits {
   margin: 40px 20px;
 }
-.benefit-card {
+.benefit-card, .key-feature-card {
   height: 100%;
   box-shadow: 0px 15px 40px -20px rgba(40, 40, 40, .7);
   margin: 1rem 1rem;
   border-radius: .5rem;
-  border-top: 3px solid red;
   padding: 32px 16px;
+}
+.benefit-card {
+  border-top: 3px solid red;
   margin: 4px 16px;
+}
+.key-feature-card {
+  border: 1px solid rgba(140, 140, 140, 0.6);
+  width: 300px;
+  position: relative;
+  margin-bottom: 40px;
 }
 .benefit-card p {
   color: rgba(50, 50, 50, .6);
@@ -310,6 +318,11 @@
 }
 .benefit-card img {
   align-self: flex-end;
+}
+.key-feature-card img {
+  position: absolute;
+  align-self: center;
+  bottom: -32px;
 }
 /* Testimonials */
 .testimonial {
