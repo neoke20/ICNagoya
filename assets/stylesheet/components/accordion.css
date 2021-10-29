@@ -14,3 +14,7 @@
     width: 100%;
   }
 }
+.accordion-body hr {
+  border-top: 4px solid #004FA6;
+  border-radius: 4px;
+}
