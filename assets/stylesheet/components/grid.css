@@ -96,9 +96,17 @@
   column-count: 3;
   column-gap: 24px;
   text-align: justify;
+  /* column-rule: 1px solid rgba(140, 140, 140, 0.6); */
+  padding: 24px 48px;
 }
 @media (max-width: 800px) {
   .school-intro {
     column-count: 1;
   }
+}
+#intro-avatar {
+  align-self: flex-end;
+}
+#intro-avatar img {
+  padding: 20px;
 }
