@@ -39,6 +39,10 @@
 .dorm-banner {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/cards/dormitory.webp);
 }
+/* About us banner */
+.aboutus-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/nagoyacastle.webp);
+}
 @media (max-width: 600px) {
   .dorm-banner {
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/cards/dormitorymobile.webp);
@@ -55,4 +59,6 @@
   .home-banner {
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/bannermobile.webp);;
   }
+  .aboutus-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../../../assets/img/banner/nagoyacastlemobile.webp);
 }
