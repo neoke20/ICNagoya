@@ -91,3 +91,14 @@
     align-items: center;
   }
 }
+/* column paragraphs */
+.school-intro {
+  column-count: 3;
+  column-gap: 24px;
+  text-align: justify;
+}
+@media (max-width: 800px) {
+  .school-intro {
+    column-count: 1;
+  }
+}
