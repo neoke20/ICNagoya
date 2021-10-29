@@ -298,9 +298,15 @@
   box-shadow: 0px 15px 40px -20px rgba(40, 40, 40, .7);
   margin: 1rem 1rem;
   border-radius: .5rem;
-  border-top: 3px solid red;
   padding: 32px 16px;
   margin: 4px 16px;
+}
+.benefit-card {
+  border-top: 3px solid red;
+}
+.key-feature-card {
+  border-top: 3px solid blue;
+  width: 400px;
 }
 .benefit-card p {
   color: rgba(50, 50, 50, .6);
@@ -308,7 +314,7 @@
 .benefit-card h3 {
   color: rgba(40, 40, 40, .8);
 }
-.benefit-card img {
+.benefit-card img, .key-feature-card img {
   align-self: flex-end;
 }
 /* Testimonials */
