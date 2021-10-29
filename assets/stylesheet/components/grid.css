@@ -84,3 +84,7 @@
     display: none;
   }
 }
+/* For blocks */
+.block {
+  padding: 50px;
+}

@@ -293,7 +293,7 @@
 .benefits {
   margin: 40px 20px;
 }
-.benefit-card {
+.benefit-card, .key-feature-card {
   height: 100%;
   box-shadow: 0px 15px 40px -20px rgba(40, 40, 40, .7);
   margin: 1rem 1rem;
