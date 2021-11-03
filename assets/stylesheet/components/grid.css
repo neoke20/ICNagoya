@@ -114,3 +114,12 @@
     margin-top: -40px;
   }
 }
+/* For the intro block */
+@media (max-width: 800px) {
+  .intro-oneyear {
+    flex-direction: column;
+  }
+  .intro-oneyear div {
+    padding: 0 30px !important;
+  }
+}
