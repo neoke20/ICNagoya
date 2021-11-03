@@ -120,6 +120,6 @@
     flex-direction: column;
   }
   .intro-oneyear div {
-    padding: 0 30px !important;
+    margin: 0 30px !important;
   }
 }
