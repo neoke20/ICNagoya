@@ -37,11 +37,11 @@
   font-weight: bold;
   background-color: #004fa6 !important;
 }
-/* For the testimonials */
-#testimonial {
+/* For the testimonials title */
+#testimonials-title {
   position: relative;
 }
-#testimonial h3 {
+#testimonials-title h3 {
   height: 100px;
   padding-top: 20px;
 }
