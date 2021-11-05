@@ -24,14 +24,7 @@
   background-image:
     radial-gradient(circle at 10px -5px, transparent 12px, #004fa6 13px);
 }
-/* For the courses block */
-#courses {
-  background-color: #002752;
-}
 /* For the accommodation block*/
-#accommodation {
-  background-color: #002752;
-}
 #courses h2 {
   font-weight: bold;
 }
