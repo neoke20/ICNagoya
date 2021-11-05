@@ -24,14 +24,7 @@
   background-image:
     radial-gradient(circle at 10px -5px, transparent 12px, #004fa6 13px);
 }
-/* For the courses block */
-#courses {
-  background-color: #002752;
-}
 /* For the accommodation block*/
-#accommodation {
-  background-color: #002752;
-}
 #courses h2 {
   font-weight: bold;
 }
@@ -43,4 +36,22 @@
   color: white !important;
   font-weight: bold;
   background-color: #004fa6 !important;
+}
+/* For the testimonials title */
+#testimonials-title {
+  position: relative;
+}
+#testimonials-title h3 {
+  height: 100px;
+  padding-top: 20px;
+}
+#triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 30px 0 30px;
+  border-color: #002752 transparent transparent transparent;
+  position: absolute;
+  left: 48%;
+  bottom: -20px;
 }

@@ -31,3 +31,7 @@
     background-image: linear-gradient(rgba(245, 245, 245, 0.2),rgba(220, 220, 220, 0.2)), url(../../../assets/img/background/wavebackgroundmobile.webp);;
   }
 }
+/* Background colors */
+.blue-bgd {
+  background-color: #002752
+}
