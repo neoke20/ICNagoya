@@ -367,3 +367,14 @@
   list-style-type: lower-roman;
   font-weight: 300;
 }
+/* For the terms menu card */
+.menu-card li {
+  color: white;
+}
+.menu-item {
+  text-transform: uppercase;
+}
+.menu-card .menu-item:hover {
+  background-color: #004FA6;
+  border-radius: 4px;
+}
