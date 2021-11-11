@@ -58,46 +58,16 @@
 .social-media .fa-facebook-square:hover {
   color: #314f8d;
 }
-.footer {
-  display: flex;
-  background-color: #001e3f;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding: 16px 0;
-}
-.footer div {
-  margin: 60px 24px;
-}
 .freepik, .freepik a, .freepik a:hover {
   background-color: #001e3f;
   color: rgba(220, 220, 220, 0.1);
 }
-.footer img {
-  width: 200px;
-  height: 100%;
-}
-.footer p {
-  font-size: 12px;
-}
-.footer p, .footer h5 {
-  color: rgba(240, 240, 240, 0.8);
-  font-weight: 300;
-  text-shadow: 2px 2px 4px rgba(10, 10, 10, 0.6);
-}
-.footer a {
-  color: white;
-  text-decoration: underline !important;
-}
-.footer a:hover {
-  color: rgba(230, 230, 230, 0.7)
-}
-@media (max-width: 880px) {
-  .footer {
-    flex-direction: column-reverse;
+@media (max-width: 980px) {
+  .icfooter {
+    flex-direction: column;
     align-items: center;
-    text-align: center;
   }
-  .footer img {
-    margin-bottom: 16px;
+  .icfooter div {
+    margin: 12px;
   }
 }
