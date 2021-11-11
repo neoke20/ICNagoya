@@ -58,6 +58,13 @@
 .social-media .fa-facebook-square:hover {
   color: #314f8d;
 }
+#footer-links a {
+  color: white;
+}
+#footer-links .link-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.616);
+  margin: 8px 0;
+}
 .freepik, .freepik a, .freepik a:hover {
   background-color: #001e3f;
   color: rgba(220, 220, 220, 0.1);
