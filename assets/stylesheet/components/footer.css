@@ -6,7 +6,19 @@
   margin: 50px 16px;
   width: 300px;
 }
-
+.icfooter h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+.icfooter h3::after {
+  width: 2rem;
+  border-top-width: 2px;
+  content: "";
+  display: inline-block;
+  border-top-style: solid;
+  border-color: white;
+}
 .footer {
   display: flex;
   background-color: #001e3f;
