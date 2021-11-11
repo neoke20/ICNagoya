@@ -356,3 +356,14 @@
   border-radius: 50px;
   padding: 8px;
 }
+/* For the terms and conditions cards */
+.terms-card {
+  box-shadow: 4px 4px 8px rgba(100, 100, 100, 0.6);
+}
+.terms-card li {
+  margin-top: 8px;
+}
+.terms-card li ol li {
+  list-style-type: lower-roman;
+  font-weight: 300;
+}
