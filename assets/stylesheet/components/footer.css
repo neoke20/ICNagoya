@@ -10,6 +10,7 @@
   text-transform: uppercase;
   font-size: 18px;
   box-sizing: border-box;
+  margin-bottom: 18px;
 }
 .icfooter h3::after {
   width: 2rem;
@@ -18,6 +19,44 @@
   display: inline-block;
   border-top-style: solid;
   border-color: white;
+}
+.icfooter h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.social-media a {
+  font-size: 32px;
+}
+.social-media .fa-instagram {
+  background: -webkit-linear-gradient(
+        45deg,
+        #f09433 0%,
+        #e6683c 25%,
+        #dc2743 50%,
+        #cc2366 75%,
+        #bc1888 100%
+      );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.social-media .fa-instagram:hover {
+  background: -webkit-linear-gradient(
+        45deg,
+        #d4842d 0%,
+        #c55a33 25%,
+        #b62036 50%,
+        #ac1d56 75%,
+        #96136c 100%
+      );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.social-media .fa-facebook-square {
+  color: #4267B2;
+}
+.social-media .fa-facebook-square:hover {
+  color: #314f8d;
 }
 .footer {
   display: flex;
