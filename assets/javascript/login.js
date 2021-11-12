@@ -8,7 +8,7 @@ loginButton.addEventListener("click", (e) => {
   const password = loginForm.password.value;
 
   if (username === "test" && password === "123456") {
-    window.location.replace('home.html');
+    window.location.replace('2c6M55V1LSgD.html');
   } else {
     errorMessage.style.display = "block";
   }
