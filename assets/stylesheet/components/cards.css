@@ -385,4 +385,12 @@
   border-radius: 4px;
   box-shadow: 4px 4px 8px rgba(100, 100, 100, 0.6);
   background-color:rgba(230, 230, 230, 0.8);
+  width: 300px;
+}
+#error-message {
+  background-color: rgba(255, 0, 0, 0.473);
+  padding: 0 4px;
+  border-radius: 4px;
+  color: white;
+  display: none;
 }
