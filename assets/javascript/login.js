@@ -10,6 +10,6 @@ loginButton.addEventListener("click", (e) => {
   if (username === "test" && password === "123456") {
     window.location.replace('home.html');
   } else {
-    errorMessage.style.display = block;
+    errorMessage.style.display = "block";
   }
 })
