@@ -378,3 +378,11 @@
   background-color: #004FA6;
   border-radius: 4px;
 }
+/* For the login card */
+.login {
+  padding: 30px;
+  margin: 40px 0;
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px rgba(100, 100, 100, 0.6);
+  background-color:rgba(230, 230, 230, 0.8);
+}
