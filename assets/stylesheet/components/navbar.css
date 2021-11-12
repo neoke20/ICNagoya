@@ -12,3 +12,7 @@
   width: 210px;
   height: 100%;
 }
+.nav-log {
+  color: black !important;
+  padding-left: 0 !important;
+}
